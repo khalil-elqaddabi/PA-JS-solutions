@@ -30,7 +30,7 @@ console.log(impairsN)
 // B-boucle  :
 let impairsNb = []
 for(let i = 0; i<date.length ; i++){
-    if(date[i]%2 ==0){
+    if(date[i]%2 !==0){
         impairsNb.push(date[i])
     }
 }
@@ -48,8 +48,7 @@ console.log('le double',doublerNm)
 // B :
 let doublerNb = []
 for(let i =0 ; i< date.length; i++){
-    date[i]*2
-    doublerNb.push(date[i])
+    doublerNb.push(date[i]*2)
 }
 console.log('le double',doublerNm)
 
