@@ -104,3 +104,111 @@ for(let i=0;i<gg;i++){
     }
 }
 console.log(idx28)
+
+// ================================================
+// 7 :
+
+// A:
+console.log(new Set(date))
+
+// B:
+let unique =[]
+for(let i=0;i<gg;i++){
+    if(!unique.includes(date[i])){
+        unique.push(date[i])
+    }
+}
+console.log(unique)
+
+
+
+// ====================================
+// JavaScript Array Manipulation Problems – Niveau Intermédiaire
+// ====================================
+
+// 8 :
+
+// A:
+let pairs = date.filter(a=>a%2 ==0)
+console.log(pairs)
+
+let impairs = date.filter(a=>a%2 !==0)
+console.log(impairs)
+
+
+// B:
+let pairsB=[]
+let impairsB=[]
+
+for(let i=0; i< gg;i++){
+    if(date[i]%2==0){
+        pairsB.push(date[i])
+    }else{
+        impairsB.push(date[i])
+    }
+}
+console.log('pairs :',pairsB)
+console.log('impairs :',impairs)
+
+
+
+// ================================================
+// 9 :
+
+// A:
+
+console.log(date.slice(0,5))
+// console.log(date)
+
+// B:
+let slic =[]
+for(let i=0;i<5;i++){
+    
+        slic.push(date[i])
+    
+}
+console.log(slic)
+
+// ================================================
+// 10 :
+
+// A:
+console.log(date.slice(-5))
+
+
+// B:
+ let slicM =[]
+for(let i=gg-5;i<gg;i++){
+    slicM.push(date[i])
+}
+console.log(slicM)
+
+
+// ================================================
+// 11 :
+
+// A:
+console.log(date.map(a=>a*a))
+
+// B:
+let mult =[]
+for(let i=0;i<gg;i++){
+    // date[i]*date[i]
+    mult.push(date[i]*date[i])
+}
+console.log(mult)
+
+// ================================================
+// 12 :
+// A:
+console.log(date.filter(a=> a<10))
+
+
+// B:
+let inf =[]
+for(let i=0;i<gg;i++){
+    if(date[i]<10){
+        inf.push(date[i])
+    }
+}
+console.log(inf)
