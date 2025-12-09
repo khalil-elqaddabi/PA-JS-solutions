@@ -50,15 +50,6 @@ console.log(date.sort((a,b)=>b-a))
 
 // B:
 
-for(let i=0 ;i<date.length;i++){
-    for(let j=0;j<date.length-1-i;j++)
-        if(date[j]<date[j+1]){
-            let tmp = date[j]
-            date[j]=date[j+1]
-            date[j+1]=tmp
-        }
-}
-console.log(date)
 
 
 // ===============================================
