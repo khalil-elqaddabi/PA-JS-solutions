@@ -144,7 +144,7 @@ console.log(tab)
 // ================================================
 // 7 :
 
-console.log([...date].sort((a,b)=>b-a).slice(0,3))
+console.log(date.sort((a,b)=>b-a).slice(0,3))
 
 
 // B:
@@ -163,3 +163,57 @@ for(let i=0;i<3;i++){
     t.push(date[i])
 }
 console.log(t)
+
+
+// ================================================
+// 8 :
+
+// A:
+// ???
+
+
+// ================================================
+// 9:
+// A:
+console.log(date.map((a,i)=>a*i))
+
+// B:
+const loop=[]
+for(let i= 0;i<gg;i++){
+    loop.push(date[i]*i)
+    
+}
+console.log(loop)
+
+
+// ================================================
+// 10 :
+// A:
+console.log(date.map(v=>v<10?0:v))
+
+// B:
+const zero=[]
+for(let i=0;i<gg;i++){
+    const value=date[i] < 10 ? 0 : date[i]
+    zero.push(value)
+}
+console.log(zero)
+
+
+// ================================================
+// 11 :
+// A:
+const group =[]
+for(let i=0;i<gg;i+=4){
+    group.push(date.slice(i,i+4))
+}
+console.log(group)
+
+
+// B:
+// ???
+
+
+// ================================================
+// 12 :
+// A:
