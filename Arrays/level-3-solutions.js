@@ -19,11 +19,11 @@ console.log(p)
 // ================================================
 // 2 :
 // A:
-// const sorting = date.sort((a,b)=> a-b)
-// // console.log(sorting)
-// const mid = Math.floor(sorting.length/2)
-// let value = date[mid]
-// console.log(value)
+const sorting = date.sort((a,b)=> a-b)
+// console.log(sorting)
+const mid = Math.floor(sorting.length/2)
+let value = date[mid]
+console.log(value)
 
 
 // B:
@@ -217,3 +217,4 @@ console.log(group)
 // ================================================
 // 12 :
 // A:
+
